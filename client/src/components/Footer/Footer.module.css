@@ -1,0 +1,132 @@
+.footerWrapper {
+  color: #fff;
+}
+
+/* TOP  */
+.footerTop {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  border-bottom: 1px solid #656769;
+}
+
+.emailSubmit {
+  display: flex;
+  position: relative;
+  width: 407px;
+  max-width: 100%;
+  height: 58px;
+  border-radius: 10px;
+  border: none;
+  font-size: 18px;
+}
+
+.emailInput {
+  display: flex;
+  position: relative;
+  width: 178%;
+  height: 58px;
+  border-radius: 10px;
+  border: none;
+  font-size: 18px;
+  padding-left: 14px;
+  margin: 10px 0;
+  height: 70px;
+}
+
+.topRightEmail {
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+
+.btn {
+  position: absolute;
+  left: 258px;
+  top: 16px;
+}
+
+.logo {
+  height: 170px;
+  width: 250px;
+}
+
+/* MAIN */
+.footerMain {
+  display: flex;
+  margin: 30px 10px;
+  justify-content: space-evenly;
+  border-bottom: 1px solid #656769;
+  padding-bottom: 50px;
+}
+
+.footerMenuWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.footerTitle {
+  border-bottom: 1px solid #656769;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+}
+
+.footerContent > ul {
+  color: #919497;
+  list-style-type: none;
+  line-height: 30px;
+}
+
+.footerContent > ul li {
+  transition: all 0.3s;
+}
+
+.footerContent > ul li:hover {
+  color: #247bfe;
+  cursor: pointer;
+  -moz-transform: translate(5px, 0px);
+  -webkit-transform: translate(5px, 0px);
+  -o-transform: translate(5px, 0px);
+  -ms-transform: translate(5px, 0px);
+  transform: translate(5px, 0px);
+}
+
+/* BOT */
+
+.footerBot {
+  color: #919497;
+  padding-left: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.icons {
+  margin-right: 190px;
+}
+
+.footerEmail {
+  border-bottom: 1px solid #656769;
+  padding-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.emailText {
+  color: #919497;
+}
+
+.footerPhone {
+  padding-top: 15px;
+  padding-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.phoneText {
+  color: #919497;
+}

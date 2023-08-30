@@ -1,0 +1,154 @@
+.loginBackground {
+  min-height: 100vh;
+  padding: 50px 0;
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(0, 0, 0) 0%,
+    rgb(64, 64, 64) 90.2%
+  );
+}
+
+.boxForm {
+  margin: 0 auto;
+  width: 80%;
+  background: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  flex: 1 1 100%;
+  align-items: stretch;
+  justify-content: space-between;
+  box-shadow: 0 0 6px 6px;
+}
+@media (max-width: 980px) {
+  .boxForm {
+    flex-flow: wrap;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+  }
+}
+.boxForm div {
+  height: auto;
+}
+.boxForm .left {
+  color: #ffffff;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("../../img/bg2.jpg");
+  overflow: hidden;
+}
+.boxForm .left .overlay {
+  padding: 30px;
+  width: 100%;
+  height: 100%;
+  /* background: #5961f9ad; */
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.boxForm .left .overlay h1 {
+  font-size: 10vmax;
+  line-height: 1;
+  font-weight: 900;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.boxForm .left .overlay span p {
+  margin-top: 30px;
+  font-weight: 900;
+}
+.boxForm .left .overlay span a {
+  background: #3b5998;
+  color: #ffffff;
+  margin-top: 10px;
+  padding: 12px 35px;
+  border-radius: 100px;
+  display: inline-block;
+  box-shadow: 0 3px 6px 1px #042d4657;
+}
+.boxForm .left .overlay span a:last-child {
+  background: #1dcaff;
+  margin-left: 30px;
+}
+.boxForm .right {
+  padding: 40px;
+  overflow: hidden;
+}
+@media (max-width: 980px) {
+  .boxForm .right {
+    width: 100%;
+  }
+}
+.boxForm .right h5 {
+  font-size: 6vmax;
+  line-height: 0;
+}
+.boxForm .right p {
+  font-size: 14px;
+  color: #b0b3b9;
+}
+.boxForm .right .inputs {
+  overflow: hidden;
+}
+.boxForm .right input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 25px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #b0b3b9;
+}
+.boxForm .right .rememberMeForgetPassword {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.boxForm .right button {
+  color: #fff;
+  font-size: 16px;
+  padding: 12px 35px;
+  border-radius: 50px;
+  display: inline-block;
+  cursor: pointer;
+  border: 0;
+  outline: 0;
+  background-color: #247bfe;
+}
+
+.rightText {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10vh;
+}
+
+.rememberMeForgetPassword p {
+  background-color: #1dcaff;
+  color: #fff !important;
+  padding: 14px 50px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+/* background-color: #1dcaff */
+
+.iconContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.iconConnection {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  background-image: linear-gradient(135deg, #009ffd 10%, #2a2a72 100%);
+  padding: 10px 10px;
+  border-radius: 50px;
+}
+
+.rightText a {
+  text-decoration: none;
+}

@@ -1,0 +1,11 @@
+.wrap {
+  overflow-x: hidden;
+}
+
+.flexWrapper {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 2%;
+}

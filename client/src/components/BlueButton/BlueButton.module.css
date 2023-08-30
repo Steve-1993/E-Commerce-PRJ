@@ -1,0 +1,27 @@
+.button {
+  font-family: "Roboto", sans-serif;
+  color: #e5e5e5;
+  font-size: 18.4px;
+  font-weight: 500;
+  background-color: #247bfe;
+  padding: 18px 24px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s;
+  border: none;
+}
+
+.button:active {
+  -webkit-box-shadow: inset 0px 0px 66px 1px #063c8d;
+  box-shadow: inset 0px 0px 66px 1px #063c8d;
+}
+
+.button:hover {
+  -moz-transform: translate(0px, -3px);
+  -webkit-transform: translate(0px, -3px);
+  -o-transform: translate(0px, -3px);
+  -ms-transform: translate(0px, -3px);
+  transform: translate(0px, -3px);
+}
+
+/* 247bfe */
